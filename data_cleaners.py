@@ -27,23 +27,23 @@ class JHUCoreData:
 
     def get_us_case_data(self):
         # keep it safe instead of going to website
-        return pd.read_csv("assets/time_series_covid19_confirmed_US.csv")
+        return pd.read_csv("data/time_series_covid19_confirmed_US.csv")
 
     def get_us_death_data(self):
         # keep it safe instead of going to website
-        return pd.read_csv("assets/time_series_covid19_deaths_US.csv")
+        return pd.read_csv("data/time_series_covid19_deaths_US.csv")
 
     def get_global_case_data(self):
         # keep it safe instead of going to website
-        return pd.read_csv("assets/time_series_covid19_confirmed_global.csv")
+        return pd.read_csv("data/time_series_covid19_confirmed_global.csv")
 
     def get_global_death_data(self):
         # keep it safe instead of going to website
-        return pd.read_csv("assets/time_series_covid19_deaths_global.csv")
+        return pd.read_csv("data/time_series_covid19_deaths_global.csv")
 
     def get_global_recovery_data(self):
         # keep it safe instead of going to website
-        return pd.read_csv("assets/time_series_covid19_recovered_global.csv")
+        return pd.read_csv("data/time_series_covid19_recovered_global.csv")
 
 
 class CUBData(JHUCoreData):
@@ -145,7 +145,7 @@ class CUBData(JHUCoreData):
         return output
 
     def get_data(self, current_date):
-        counties_df = pd.read_csv("assets/counties.csv")
+        counties_df = pd.read_csv("data/counties.csv")
 
         covid_df_non_smooth, covid_df = self.clean_JHU_cases()
 

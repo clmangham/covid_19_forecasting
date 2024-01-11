@@ -270,7 +270,7 @@ def eval_model(lstm_model, test_loader, y_delta_cases, test_info):
         results_df["y_label"] = out_arr_lbl
         results_df["y_delta_cases"] = y_delta_cases
 
-        counties_df = pd.read_csv("assets/counties.csv")
+        counties_df = pd.read_csv("data/counties.csv")
         cols = ["FIPS", "POPULATION"]
         counties_df = counties_df[cols]
 
