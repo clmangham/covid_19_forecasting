@@ -1,4 +1,4 @@
-# Forcasting COVID 19
+# Forecasting the Incidence of COVID-19 Cases using Deep Learning
 
 The goal of this project is to forecast the incidence of COVID-19 cases. Data curated by [JHU CSSE](https://github.com/CSSEGISandData/). This project is an extension of UMich Masters of Applied Data Science: Health Analytics Coursework.
 
