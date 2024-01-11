@@ -13,15 +13,7 @@ The goal of this project is to forecast the incidence of COVID-19 cases. Data cu
 
 ## Highlights
 
-
-<style>
-  .centered-images img {
-    display: inline-block;
-    margin: 0 10px;
-  }
-</style>
-
-## Factors that correleate with COVID-19
+### Factors that correleate with COVID-19
 
 Smoking is the factor most positvely corrleated with covid cases, followed by poor health and obesity. Conversely, median household income negatively correlates with covid.
 
@@ -29,17 +21,17 @@ Smoking is the factor most positvely corrleated with covid cases, followed by po
   <img src="images/correlations.png" width="800" />
 </div>
 
-## Map of Cases
+### Map of Cases
 We can plot the ratio of cases in comparision to smokers:
 
 <div style="text-align:center" class="centered-images">
   <img src="images/us_percentages.png" width="800" />
 </div>
 
-## LSTM model for COVID-19 forecasting
+### LSTM model for COVID-19 forecasting
 
 We implement elements of the model explained in the paper: [A spatiotemporal machine learning approach to forecasting
-COVID-19 incidence at the county level in the United States](https://arxiv.org/pdf/2109.12094.pdf). Unlike the paper we will not be implementing an ensemble but only one model.
+COVID-19 incidence at the county level in the United States](https://arxiv.org/pdf/2109.12094.pdf).
 
 
 <div style="text-align:center" class="centered-images">
@@ -47,3 +39,5 @@ COVID-19 incidence at the county level in the United States](https://arxiv.org/p
 </div>
 
 The prediction intereval is widest around November 2020.
+
+Unlike the paper we will did not implement an ensemble but only one model. This is something for future work along with comparision to more traditional time series models such as ARIMA.
