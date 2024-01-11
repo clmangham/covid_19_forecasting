@@ -1,0 +1,6 @@
+__pycache__
+
+# Pre-trained models reults from UMSI. Save for unit testing
+results_arima_Milwaukee.pkl
+results_nation_all_counties.pkl
+results_wi_milwaukee.pkl
