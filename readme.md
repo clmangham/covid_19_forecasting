@@ -18,7 +18,7 @@ The goal of this project is to forecast the incidence of COVID-19 cases. Data cu
 Smoking is the factor most positvely corrleated with covid cases, followed by poor health and obesity. Conversely, median household income negatively correlates with covid.
 
 <div style="text-align:center" class="centered-images">
-  <img src="images/correlations.png" width="800" />
+  <img src="images/correlations.png" width="700" />
 </div>
 
 ### Map of Cases
@@ -35,7 +35,7 @@ COVID-19 incidence at the county level in the United States](https://arxiv.org/p
 
 
 <div style="text-align:center" class="centered-images">
-  <img src="images/case_comparison.png" width="800" />
+  <img src="images/case_comparison.png" width="700" />
 </div>
 
 The prediction intereval is widest around November 2020.
