@@ -4,7 +4,7 @@ The goal of this project is to forecast the incidence of COVID-19 cases. Data cu
 
 ## Content
 
-  1. Inspect correlations between demographic factors and COVID-19 prevelance
+  1. Inspect correlations between demographic factors and COVID-19 prevalence
 
   2. Implement LSTM model for COVID-19 forecasting and evaluate on state and county-level data
 
@@ -15,14 +15,14 @@ The goal of this project is to forecast the incidence of COVID-19 cases. Data cu
 
 ### Factors that correleate with COVID-19
 
-Smoking is the factor most positvely corrleated with covid cases, followed by poor health and obesity. Conversely, median household income negatively correlates with covid.
+Smoking is the factor most positively  correlated  with covid cases, followed by poor health and obesity. Conversely, median household income negatively correlates with covid.
 
 <div style="text-align:center" class="centered-images">
   <img src="images/correlations.png" width="700" />
 </div>
 
 ### Map of Cases
-We can plot the ratio of cases in comparision to smokers:
+We can visualize the rate of cases in comparison to smokers:
 
 <div style="text-align:center" class="centered-images">
   <img src="images/us_percentages.png" width="800" />
